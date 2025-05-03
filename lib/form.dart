@@ -119,6 +119,7 @@ void _insertemp() {
                   ElevatedButton(onPressed: _updateStudent, child: Text('Update')),
                   ElevatedButton(onPressed: _deleteStudent, child: Text('Delete')),
                   ElevatedButton(onPressed: _getStudent, child: Text('Get')),
+                  ElevatedButton(onPressed: _getStudent, child: Text('Get info ')),
                 ],
               ),
             ],
