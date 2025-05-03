@@ -21,8 +21,8 @@ class _BtnUiCrudState extends State<BtnUiCrud> {
             }, child: Text('Create')),
             ElevatedButton(onPressed: (){
               Update('students', 'Info', 'age', 25);
-            }, child: Text('Update')),
-            ElevatedButton(onPressed: (){}, child: Text('Delete')),
+            }, child: Text('Update the Info ')),
+            ElevatedButton(onPressed: (){}, child: Text('Delete Info')),
             ElevatedButton(onPressed: (){}, child: Text('Fetch')),
           ],
         ),
